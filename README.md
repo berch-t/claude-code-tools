@@ -82,14 +82,18 @@ Intelligent documentation helper that references your ai_docs folder for context
 - Best practices integration
 - Multi-framework support
 
-### 🔄 Infinite Agentic Loops
-Create sophisticated iterative generation processes for complex development tasks.
+### 🔄 Infinite Agentic Loops + UI Specifications
+Create sophisticated iterative generation processes using specification files to drive parallel agent coordination and progressive enhancement workflows.
 
 **Features:**
-- Self-improving code generation
-- Iterative refinement cycles
-- Quality checkpoints
-- Automated testing integration
+- **Specification-Driven Generation**: Uses UI innovation specs as templates
+- **Parallel Agent Coordination**: Multiple Sub Agents for concurrent development
+- **Progressive Sophistication**: Each iteration wave explores advanced concepts
+- **Infinite or Limited Runs**: Configurable iteration counts (1-N or "infinite")
+- **Context-Aware Scaling**: Intelligent wave sizing based on context capacity
+
+**Integration with Specs Folder:**
+The `/infinite` command works seamlessly with the 4 UI innovation specifications (v1-v4) to generate breakthrough interface components through parallel agent workflows.
 
 ## 📚 Documentation Guides
 
@@ -102,20 +106,32 @@ Our ai_docs collection includes comprehensive guides for:
 - **Aceternity UI** - Component libraries
 - **And 7 more specialized guides**
 
-### 🎨 UI Innovation Specifications
-Progressive specifications for creating breakthrough UI components that push interface design boundaries.
+### 🎨 UI Innovation Specifications + Infinite Workflows
+Progressive specifications for creating breakthrough UI components through parallel agent coordination and iterative enhancement processes.
 
-**Features:**
-- 4 evolution stages from prototype to production
-- Novel interaction paradigm frameworks
-- Modular architecture patterns
-- Accessibility-first design principles
+**Specification-Driven Development:**
+- **4 evolution stages** from prototype to production
+- **Novel interaction paradigms** that completely replace traditional UI elements
+- **Modular architecture patterns** with clean separation of concerns
+- **Accessibility-first design** principles built into every specification
 
-**Specification Versions:**
-- **v1** - Core innovation challenges with rapid prototyping
-- **v2** - Enhanced functionality with accessibility focus
-- **v3** - Themed hybrid components combining multiple UI elements
-- **v4** - Production-ready modular architecture
+**Infinite Command Integration:**
+```bash
+# Generate UI innovations using specifications
+/infinite specs/invent_new_ui.md output/ui_innovations/ 10
+
+# Infinite generation until context limits
+/infinite specs/invent_new_ui_v2.md output/ui_enhanced/ infinite
+
+# Progressive architecture evolution
+/infinite specs/invent_new_ui_v4.md output/ui_production/ 5
+```
+
+**Specification Versions + Agent Coordination:**
+- **v1** - Core innovation challenges → Single file rapid prototyping with parallel iteration
+- **v2** - Enhanced functionality → Accessibility-focused development with wave-based generation
+- **v3** - Themed hybrid components → Multi-element integration with sophisticated agent coordination
+- **v4** - Production-ready modular architecture → Professional-grade file separation with advanced parallel workflows
 
 ## 🤝 Contributing
 

@@ -145,6 +145,34 @@ component-name/
 
 These specifications work seamlessly with Claude Code commands for enhanced development workflows:
 
+#### `/infinite` Command - Primary Integration
+**The `/infinite` command is specifically designed to work with these UI specification files.** It uses the specs as templates for parallel agent coordination and iterative generation:
+
+```bash
+# Generate UI innovations using specifications (basic usage)
+/infinite specs/invent_new_ui.md output/ui_innovations/ 10
+
+# Infinite generation until context limits (unlimited mode)
+/infinite specs/invent_new_ui_v2.md output/ui_enhanced/ infinite
+
+# Progressive architecture evolution (v4 modular)
+/infinite specs/invent_new_ui_v4.md output/ui_production/ 5
+
+# Limited runs for testing and iteration refinement
+/infinite specs/invent_new_ui_v3.md output/ui_themed/ 3
+```
+
+**Agent Coordination Patterns:**
+- **1-5 iterations:** All Sub Agents launch simultaneously for maximum parallel efficiency
+- **6-20 iterations:** Batched waves of 5 agents to manage coordination complexity
+- **Infinite mode:** Continuous waves of 3-5 agents with context capacity monitoring
+
+**Progressive Sophistication Strategy:**
+- **Wave 1:** Basic functional replacements with single innovation dimensions
+- **Wave 2:** Multi-dimensional innovations with enhanced interactions
+- **Wave 3:** Complex paradigm combinations with adaptive behaviors
+- **Wave N:** Revolutionary concepts pushing specification boundaries
+
 #### `/ai_docs` Integration
 ```bash
 # Get specification guidance
@@ -157,21 +185,12 @@ These specifications work seamlessly with Claude Code commands for enhanced deve
 /ai_docs What are the v2 accessibility requirements for gesture-based components?
 ```
 
-#### `/infinite` Enhancement
-```bash
-# Iterative component development
-/infinite Create a hybrid navigation component following the v3 specification
-
-# Progressive enhancement
-/infinite Upgrade this v1 component to v4 modular architecture
-```
-
 #### `/populate_docs` Documentation
 ```bash
 # Document implementation approaches
 /populate_docs UI Innovation Implementation Patterns
 
-# Create component libraries
+# Create component libraries from infinite output
 /populate_docs Modular Component Architecture Guide
 ```
 

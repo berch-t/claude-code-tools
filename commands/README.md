@@ -39,28 +39,45 @@ A collection of powerful slash commands for Claude Code that enhance development
 
 ## 🔄 `/infinite` - Infinite Agentic Loop Generation
 
-**Purpose:** Creates sophisticated iterative generation processes for complex development tasks that benefit from multiple refinement cycles.
+**Purpose:** Creates sophisticated iterative generation processes using specification files to drive parallel agent coordination and progressive enhancement workflows.
 
-### Features
-- Self-improving code generation
-- Quality checkpoints and validation
-- Iterative refinement processes
-- Automated testing integration
-- Convergence detection
+### Core Functionality
+- **Specification-Driven:** Uses markdown spec files to define generation requirements
+- **Parallel Agent Coordination:** Deploys multiple Sub Agents for concurrent generation
+- **Progressive Sophistication:** Each iteration wave explores more advanced concepts
+- **Infinite or Limited Runs:** Configurable iteration counts (1-N or "infinite")
+- **Context-Aware Scaling:** Intelligent wave sizing based on context capacity
 
-### Usage
+### Integration with Specs Folder
+The `/infinite` command is specifically designed to work with specification files in the `specs/` directory:
+
+- **UI Innovation Specs:** Use `invent_new_ui.md` and variants to generate novel UI components
+- **Progressive Enhancement:** Start with v1 specs and evolve through v2-v4 architectures
+- **Themed Development:** Leverage v3/v4 specs for comprehensive component libraries
+- **Modular Architecture:** v4 specs drive production-ready multi-file structures
+
+### Usage Patterns
 ```bash
-/infinite Create a React component that progressively improves its performance
-/infinite Build a Python script that optimizes itself through iterations
-/infinite Design an API that refines its schema based on usage patterns
+# Generate UI innovations using specifications
+/infinite specs/invent_new_ui.md output/ui_innovations/ 10
+
+# Infinite UI generation until context limits
+/infinite specs/invent_new_ui_v2.md output/ui_enhanced/ infinite
+
+# Progressive architecture evolution
+/infinite specs/invent_new_ui_v4.md output/ui_production/ 5
+
+# Limited iteration runs for testing
+/infinite specs/invent_new_ui_v3.md output/ui_themed/ 3
 ```
 
-### Use Cases
-- Complex algorithm development
-- UI/UX iterative improvement
-- Performance optimization cycles
-- Architecture refinement
-- Test-driven development loops
+### Agent Coordination Strategy
+- **1-5 iterations:** All agents launch simultaneously for maximum parallel efficiency
+- **6-20 iterations:** Batched waves of 5 agents to manage coordination complexity
+- **Infinite mode:** Continuous waves of 3-5 agents with context monitoring
+
+### Specification Evolution
+Each iteration builds upon previous work while introducing novel elements, following the progression defined in the specification files. The command analyzes existing output to ensure uniqueness and progressive sophistication across all parallel streams.
 
 ---
 
