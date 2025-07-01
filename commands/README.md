@@ -188,7 +188,7 @@ Based on Daniel Miessler's [extractwisdom pattern](https://github.com/danielmies
 ### Quick Setup
 ```bash
 # Copy all commands to Claude Code
-cp -r commands/* ~/.claude/commands/
+cp commands/*.md ~/.claude/commands/
 
 # Verify installation
 ls ~/.claude/commands/
@@ -197,7 +197,7 @@ ls ~/.claude/commands/
 ### Individual Command Installation
 ```bash
 # Install specific command
-cp commands/wisdom_extraction/wisdom.md ~/.claude/commands/
+cp commands/wisdom.md ~/.claude/commands/
 ```
 
 ## 📖 Usage Guidelines

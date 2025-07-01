@@ -15,11 +15,11 @@ This repository contains battle-tested tools and documentation for maximizing pr
 ```
 claude-code-tools/
 ├── 🎯 commands/           # Claude Code slash commands (5 tools)
-│   ├── ai_docs/          # Smart documentation assistant
-│   ├── infinite/         # Infinite agentic loop generation
-│   ├── populate_docs/    # Auto-documentation from conversations
-│   ├── prime/            # Context window priming
-│   └── wisdom_extraction/ # YouTube/text wisdom extraction
+│   ├── ai_docs.md        # Smart documentation assistant
+│   ├── infinite.md       # Infinite agentic loop generation
+│   ├── populate_docs.md  # Auto-documentation from conversations
+│   ├── prime.md          # Context window priming
+│   └── wisdom.md         # YouTube/text wisdom extraction
 ├── 🔌 MCP/               # Model Context Protocol servers
 ├── 📚 ai_docs/           # AI development documentation (12 guides)
 ├── 🎨 specs/             # UI innovation specifications (4 versions)
@@ -39,7 +39,7 @@ claude-code-tools/
 
 2. **Copy commands to your Claude Code directory:**
    ```bash
-   cp -r commands/* ~/.claude/commands/
+   cp commands/*.md ~/.claude/commands/
    ```
 
 3. **Copy AI docs to your documentation directory:**
