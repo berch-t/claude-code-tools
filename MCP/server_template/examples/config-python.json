@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "{{SERVER_NAME}}": {
+      "command": "uv",
+      "args": ["run", "{{ABSOLUTE_PATH}}/server.py"],
+      "env": {
+        "{{ENV_KEY}}": "{{ENV_VALUE}}"
+      }
+    }
+  }
+}
+
+// Alternative with pip
+{
+  "mcpServers": {
+    "{{SERVER_NAME}}": {
+      "command": "python", 
+      "args": ["{{ABSOLUTE_PATH}}/server.py"],
+      "env": {
+        "{{ENV_KEY}}": "{{ENV_VALUE}}"
+      }
+    }
+  }
+}

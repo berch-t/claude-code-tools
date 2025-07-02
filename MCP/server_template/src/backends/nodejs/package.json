@@ -1,0 +1,29 @@
+{
+  "name": "{{SERVER_NAME}}",
+  "version": "{{VERSION}}",
+  "description": "{{DESCRIPTION}}",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "{{KEYWORDS}}"
+  ],
+  "author": "{{AUTHOR}}",
+  "license": "{{LICENSE}}",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

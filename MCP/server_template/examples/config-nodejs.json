@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "{{SERVER_NAME}}": {
+      "command": "node",
+      "args": ["{{ABSOLUTE_PATH}}/server.js"],
+      "env": {
+        "{{ENV_KEY}}": "{{ENV_VALUE}}"
+      }
+    }
+  }
+}

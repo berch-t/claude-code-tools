@@ -1,0 +1,40 @@
+[project]
+name = "{{SERVER_NAME}}"
+version = "{{VERSION}}"
+description = "{{DESCRIPTION}}"
+authors = [
+    {name = "{{AUTHOR}}", email = "{{EMAIL}}"}
+]
+dependencies = [
+    "mcp>=1.0.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "{{LICENSE}}"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=22.0.0",
+    "isort>=5.0.0",
+    "mypy>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
