@@ -10,12 +10,13 @@ This directory contains MCP (Model Context Protocol) servers that extend Claude 
 
 ```
 MCP/
+├── plans-mcp-server/            # MCP server template
 ├── README.md                    # This file
-├── server_template/             # Template for new MCP servers
-│   ├── src/
-│   ├── README.md
-│   └── package.json
-└── [future_servers]/            # Custom MCP servers
+└── server_template/             # Template for new MCP servers
+    ├── src/
+    ├── README.md
+    ├── package.json
+    └── tsconfig.ts
 ```
 
 ## 🚀 Getting Started
