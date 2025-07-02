@@ -10,7 +10,7 @@ This directory contains MCP (Model Context Protocol) servers that extend Claude 
 
 ```
 MCP/
-├── plans-mcp-server/            # MCP server template
+├── plans-mcp-server/            # Save validated plans from plan mode
 ├── README.md                    # This file
 └── server_template/             # Template for new MCP servers
     ├── src/
